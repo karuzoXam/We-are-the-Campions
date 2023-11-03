@@ -1,0 +1,141 @@
+ * {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.input-section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: space-betweenf; */
+    align-items: center;
+    gap:10px;
+}
+
+.input-field {
+    /* flex-grow: 1; */
+    width: 100%;
+    height: 90px;
+    background-color: #374151;
+    border: none; 
+    border-radius: 6px;
+    position: relative;
+    color: #fff;
+}
+
+.input-field::placeholder, 
+.from-input::placeholder, 
+.to-input::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    font-size: 14px;
+    color: #9CA3AF;
+}
+
+.input-half {
+    display: flex;
+    gap: 10px;
+}
+
+.from-input, 
+.to-input {
+    /* flex-grow: 1; */
+    width: 50%;
+    padding: 10px;
+    background-color: #374151;
+    border: none; 
+    border-radius: 6px;
+    color: #fff;
+}
+
+.btn {
+    /* flex-grow: 1; */
+    width: 100%;
+    border: none; 
+    border-radius: 6px;
+    padding: 14px 0;
+    background-color: #0EA5E9;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    width: 250px;
+    background-color: #fff;
+    padding: 8px;
+    font-size: 12px;
+     /* white-space: pre-wrap; */
+     
+    overflow-wrap: normal;
+    word-break: keep-all;
+}
+
+p {
+    margin: 0
+}
+
+p:nth-child(1),
+p:nth-child(3) {
+    font-weight: 800;
+}
+
+p:nth-child(2){
+    margin: 8px 0 8px 0;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap
+}
+
+svg {
+    height: 14px;
+}
+
+.icon-clicked {
+    fill: #000;
+}
