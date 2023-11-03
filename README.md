@@ -7,11 +7,11 @@
 - Beiträge werden in Echtzeit in einer Liste angezeigt.
 - Nutzer können Beiträge löschen, indem sie auf einen Beitrag klicken.
 
+## Vorschau
+![Projekt-Screenshot](screenshot.png)
+
 ## Verwendete Technologien
 - HTML
 - CSS
 - JavaScript
 - Firebase Realtime Database
-
-## Beispiel
-![Projekt-Screenshot](screenshot.png)
