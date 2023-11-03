@@ -8,7 +8,7 @@
 - Nutzer können Beiträge löschen, indem sie auf einen Beitrag klicken.
 
 ## Vorschau
-![Projekt-Screenshot](screenshot.png)
+![Projekt-Screenshot](We_are_the_Champions.png)
 
 ## Verwendete Technologien
 - HTML
