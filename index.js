@@ -3,7 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
 
 const appSettings = {
-    databaseURL: 'https://test-bank-95dd2-default-rtdb.europe-west1.firebasedatabase.app/',
+    databaseURL: 'your/database/url/here',
 }
 
 const app = initializeApp(appSettings);
